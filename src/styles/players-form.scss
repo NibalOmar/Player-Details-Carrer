@@ -1,0 +1,28 @@
+
+.container1 {
+    background: url(../commponents/images/Main_Stedium.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+
+    &__h1{
+        color: greenyellow;
+        font-size: 40px;
+        padding-top: 100px;
+    }
+
+    &__para {
+        color: white;
+        padding-top: 30px;
+        padding-left: 100px;
+        height: 100%;
+
+    }
+
+    
+}
+

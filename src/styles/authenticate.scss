@@ -1,0 +1,36 @@
+
+
+
+.authenticate {
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  padding: 1px 40px;
+
+}
+ 
+//Dont forget backround photo...
+
+
+
+
+
+.regist{
+  &__b {
+    cursor: pointer;
+    color:rgb(13, 24, 236)
+
+};
+}
+
+.login {
+  &__b {
+    cursor: pointer;
+    color: red;
+  }
+}

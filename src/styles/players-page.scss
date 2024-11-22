@@ -1,0 +1,29 @@
+.container2 {
+    background: url(../commponents/images/back-player.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+
+    &__title {
+        color: greenyellow;
+        font-size: 55px;
+    }
+    
+    &__inf {
+        color: white;
+        width: 550px;
+    }
+}
+
+p{
+    font-size: 15px;
+}
+
+
+
